@@ -20,7 +20,7 @@ public class PentagonCrazy {
 		// 4. Make a variable for the number of sides you want (can’t test this one)
 		int sides = 5;
 		// 5. Make a variable for the angle you want the robot to turn. Hint: you can divide in Java using "/". Can’t test until step 6.
-		int angle = 360/5;
+		int angle = 360/sides;
 		// 7. Do steps #2 to #11, 200 times. When this is done you should see a pentagon.
 		for (int i = 0; 200 > i; i++) {
 			// 2. Move the robot 200 pixels
@@ -30,7 +30,7 @@ public class PentagonCrazy {
 						// 6. Turn the robot the amount in your angle variable
 						jones.turn(angle);
 						// 11. Turn the robot one more degree
-
+						jones.turn(1);
 		}
 			
 	}
